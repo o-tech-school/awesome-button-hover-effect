@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="btnContent">
+        <button>
+            <span>Hover</span>
+            <span class="iconContent">
+                <div class="icon leftIcon"><svg><use xlink:href="#arrowRight"></use></svg></div>
+                <div class="icon rightIcon"><svg><use xlink:href="#arrowRight"></use></svg></div>
+            </span>
+        </button>
+    </div>
+    
+    <svg style="display: none;">
+        <symbol id="arrowRight" viewBox="0 0 20 10">
+            <path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
+        </symbol>
+    </svg>
+</body>
+</html>
